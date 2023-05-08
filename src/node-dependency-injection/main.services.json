@@ -1,0 +1,15 @@
+{
+  "services": {
+    "transformer": {
+      "class": "./shared/base-64-transformer.service",
+      "main": "Base64Transformer"
+    },
+    "example": {
+      "class": "./shared/basic-class",
+      "arguments": [
+        "@transformer",
+        "@?foo-emitter"
+      ]
+    }
+  }
+}

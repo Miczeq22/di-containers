@@ -1,0 +1,8 @@
+{
+  "services": {
+    "foo-emitter": {
+      "class": "events",
+      "main": "EventEmitter"
+    }
+  }
+}

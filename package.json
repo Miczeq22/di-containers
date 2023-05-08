@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start:ndi": "ts-node src/node-dependency-injection/basic-example.ts"
+  },
+  "devDependencies": {
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "@types/node": "20.1.0",
+    "node-dependency-injection": "3.0.5",
+    "ts-node": "10.9.1"
+  }
+}
