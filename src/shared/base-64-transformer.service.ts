@@ -1,3 +1,4 @@
+import { injectable } from "tsyringe";
 import { Transformer } from "./transformer";
 
 export class Base64Transformer implements Transformer {

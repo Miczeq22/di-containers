@@ -1,13 +1,18 @@
 {
   "scripts": {
-    "start:ndi": "ts-node src/node-dependency-injection/basic-example.ts"
+    "start:ndi": "ts-node src/node-dependency-injection/basic-example.ts",
+    "start:tsyringe": "ts-node src/tsyringe/basic-example.ts",
+    "start:inversify": "ts-node src/inversify/basic-example.ts"
   },
   "devDependencies": {
-    "typescript": "5.0.4"
+    "typescript": "4.9.4"
   },
   "dependencies": {
     "@types/node": "20.1.0",
+    "inversify": "6.0.1",
     "node-dependency-injection": "3.0.5",
-    "ts-node": "10.9.1"
+    "reflect-metadata": "0.1.13",
+    "ts-node": "10.9.1",
+    "tsyringe": "4.7.0"
   }
 }
