@@ -66,3 +66,12 @@ container.resolve<SomeClassType>("#token");
 - You have to "touch" existing code to make it work e.g. @inject decorator
 - It works more like a framework instead of a simple lib, i.e. to use it effectively we have to follow the guidelines and use decorators, among other things
 - may affect testing
+
+### Steps to include TSyringe to Flick codebase
+
+1. Register dependencies either through `@registry` or `container.register`, it should be quite fast with the module-way with `@registry`
+
+2. Create tokens or re-use existing one (DITypes keys)
+
+3. Change `@Inject` from typedi to `@inject` from TSyringe
+

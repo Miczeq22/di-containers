@@ -88,3 +88,10 @@ await loader.load('/path/to/file.json');
 ### Cons
 - Hard to understand, we need to know that `%` is package reference and `@` is dependency reference in config file
 - Need to config every argument explicitly in config file
+
+
+### Steps to include Node Dependency Injection to Flick codebase
+
+Just simply register dependencies through configuration file but we need to explicity write each argument in configuration file 
+
+Still IMO this one is the least invasive to add to existing codebase
