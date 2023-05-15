@@ -1,7 +1,7 @@
 import { autoInjectable, inject, injectable } from "tsyringe";
 import { Transformer } from "../shared/transformer";
 
-@autoInjectable()
+@injectable()
 class BasicClass {
   constructor(
     // @ts-ignore

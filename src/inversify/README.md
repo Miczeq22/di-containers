@@ -62,17 +62,17 @@ const ninja = container.get<Warrior>(TYPES.Warrior);
 - Easy to use
 - lifecycle scope support
 - Multi-injection support (we can inject another value to existing key and key value will change automatically to array of values)
+- we have control over container
 
 ### Cons
 
 - Poor support for modularity
 - You have to "touch" existing code to make it work e.g. @inject decorator
 - It works more like a framework instead of a simple lib, i.e. to use it effectively we have to follow the guidelines and use decorators, among other things
-- may affect testing
 
 ### Steps to include TSyringe to Flick codebase
 
-1. Register dependencies either through or `container.bind`.
+1. Register dependencies through `container.bind`.
 
 2. Create tokens or re-use existing one (DITypes keys)
 
